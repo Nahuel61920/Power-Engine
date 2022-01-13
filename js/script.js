@@ -28,6 +28,13 @@ window.onload = () => {
 
 }
 
+const btnSwitch = document.querySelector("#switch");
+
+btnSwitch.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    btnSwitch.classList.toggle("active")
+})
+
 var swiper = new Swiper(".vehiculo-slider", {
   grabCursor: true,
   centeredSlides: true,  
