@@ -60,3 +60,55 @@ var swiper = new Swiper(".vehiculo-slider", {
     },
   },
 });
+
+var swiper = new Swiper(".modelos-slider", {
+  grabCursor: true,
+  centeredSlides: true,  
+  spaceBetween: 20,
+  loop:true,
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable:true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+var swiper = new Swiper(".opiniones-slider", {
+  grabCursor: true,
+  centeredSlides: true,  
+  spaceBetween: 20,
+  loop:true,
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable:true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
