@@ -108,6 +108,10 @@ body.dark .site-header .logo img {
     width:0%;
 }
 
+body.dark .site-header .navbar.activar {
+    background-color: #111;
+}
+
 .site-header .navbar a{
     font-size: 1.7rem;
     margin: 0 1rem;
